@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5700D0714E7600CF940C7E26 /* Pods_CodeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029DA5172A124265103859DE /* Pods_CodeTest.framework */; };
 		E46BEA321F4AED21006013AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BEA311F4AED21006013AA /* AppDelegate.swift */; };
-		E46BEA341F4AED21006013AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BEA331F4AED21006013AA /* ViewController.swift */; };
 		E46BEA371F4AED21006013AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46BEA351F4AED21006013AA /* Main.storyboard */; };
 		E46BEA391F4AED21006013AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46BEA381F4AED21006013AA /* Assets.xcassets */; };
 		E46BEA3C1F4AED21006013AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46BEA3A1F4AED21006013AA /* LaunchScreen.storyboard */; };
+		E46BEA441F4AED75006013AA /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BEA431F4AED75006013AA /* mainViewController.swift */; };
+		E46BEA461F4AED84006013AA /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BEA451F4AED84006013AA /* detailViewController.swift */; };
+		E46BEA491F4AEDBD006013AA /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BEA481F4AEDBD006013AA /* Song.swift */; };
+		E46BEA4B1F4AEF20006013AA /* SongsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BEA4A1F4AEF20006013AA /* SongsService.swift */; };
+		E46BEA4D1F4AF1E2006013AA /* SongPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BEA4C1F4AF1E2006013AA /* SongPresenter.swift */; };
+		E46BEA4F1F4B063A006013AA /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BEA4E1F4B063A006013AA /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		029DA5172A124265103859DE /* Pods_CodeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		712FEE1AA984BDBF40342212 /* Pods-CodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeTest/Pods-CodeTest.release.xcconfig"; sourceTree = "<group>"; };
+		B4AA0727A36EA8A7DBB0E5A1 /* Pods-CodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeTest/Pods-CodeTest.debug.xcconfig"; sourceTree = "<group>"; };
 		E46BEA2E1F4AED21006013AA /* CodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46BEA311F4AED21006013AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E46BEA331F4AED21006013AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E46BEA361F4AED21006013AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E46BEA381F4AED21006013AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E46BEA3B1F4AED21006013AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E46BEA3D1F4AED21006013AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46BEA431F4AED75006013AA /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		E46BEA451F4AED84006013AA /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		E46BEA481F4AEDBD006013AA /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		E46BEA4A1F4AEF20006013AA /* SongsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsService.swift; sourceTree = "<group>"; };
+		E46BEA4C1F4AF1E2006013AA /* SongPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongPresenter.swift; sourceTree = "<group>"; };
+		E46BEA4E1F4B063A006013AA /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5700D0714E7600CF940C7E26 /* Pods_CodeTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73299F353185D339C3ED60AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4AA0727A36EA8A7DBB0E5A1 /* Pods-CodeTest.debug.xcconfig */,
+				712FEE1AA984BDBF40342212 /* Pods-CodeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96422312BE5CBCC3FDD4C3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				029DA5172A124265103859DE /* Pods_CodeTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E46BEA251F4AED21006013AA = {
 			isa = PBXGroup;
 			children = (
 				E46BEA301F4AED21006013AA /* CodeTest */,
 				E46BEA2F1F4AED21006013AA /* Products */,
+				73299F353185D339C3ED60AF /* Pods */,
+				96422312BE5CBCC3FDD4C3DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,59 @@
 		E46BEA301F4AED21006013AA /* CodeTest */ = {
 			isa = PBXGroup;
 			children = (
-				E46BEA311F4AED21006013AA /* AppDelegate.swift */,
-				E46BEA331F4AED21006013AA /* ViewController.swift */,
+				E46BEA531F4B0C7A006013AA /* View */,
+				E46BEA521F4B0C6D006013AA /* Presenter */,
+				E46BEA511F4B0C62006013AA /* Model */,
+				E46BEA501F4B0C36006013AA /* Supporting Files */,
 				E46BEA351F4AED21006013AA /* Main.storyboard */,
-				E46BEA381F4AED21006013AA /* Assets.xcassets */,
-				E46BEA3A1F4AED21006013AA /* LaunchScreen.storyboard */,
-				E46BEA3D1F4AED21006013AA /* Info.plist */,
 			);
 			path = CodeTest;
+			sourceTree = "<group>";
+		};
+		E46BEA501F4B0C36006013AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E46BEA381F4AED21006013AA /* Assets.xcassets */,
+				E46BEA3D1F4AED21006013AA /* Info.plist */,
+				E46BEA3A1F4AED21006013AA /* LaunchScreen.storyboard */,
+				E46BEA311F4AED21006013AA /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E46BEA511F4B0C62006013AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E46BEA481F4AEDBD006013AA /* Song.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E46BEA521F4B0C6D006013AA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E46BEA541F4B0C94006013AA /* Services */,
+				E46BEA4C1F4AF1E2006013AA /* SongPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		E46BEA531F4B0C7A006013AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E46BEA451F4AED84006013AA /* detailViewController.swift */,
+				E46BEA431F4AED75006013AA /* mainViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E46BEA541F4B0C94006013AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E46BEA4E1F4B063A006013AA /* ImageLoader.swift */,
+				E46BEA4A1F4AEF20006013AA /* SongsService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E46BEA401F4AED21006013AA /* Build configuration list for PBXNativeTarget "CodeTest" */;
 			buildPhases = (
+				909CF15F8B822798126413BD /* [CP] Check Pods Manifest.lock */,
 				E46BEA2A1F4AED21006013AA /* Sources */,
 				E46BEA2B1F4AED21006013AA /* Frameworks */,
 				E46BEA2C1F4AED21006013AA /* Resources */,
+				6F6DB5067395EFE872ED4EEF /* [CP] Embed Pods Frameworks */,
+				3F7625AB99E74616E2EAFB22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +178,7 @@
 				TargetAttributes = {
 					E46BEA2D1F4AED21006013AA = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JC959F8T7E;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +214,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F7625AB99E74616E2EAFB22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeTest/Pods-CodeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F6DB5067395EFE872ED4EEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeTest/Pods-CodeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909CF15F8B822798126413BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E46BEA2A1F4AED21006013AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E46BEA341F4AED21006013AA /* ViewController.swift in Sources */,
+				E46BEA4F1F4B063A006013AA /* ImageLoader.swift in Sources */,
+				E46BEA491F4AEDBD006013AA /* Song.swift in Sources */,
+				E46BEA4B1F4AEF20006013AA /* SongsService.swift in Sources */,
 				E46BEA321F4AED21006013AA /* AppDelegate.swift in Sources */,
+				E46BEA4D1F4AF1E2006013AA /* SongPresenter.swift in Sources */,
+				E46BEA441F4AED75006013AA /* mainViewController.swift in Sources */,
+				E46BEA461F4AED84006013AA /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +394,10 @@
 		};
 		E46BEA411F4AED21006013AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4AA0727A36EA8A7DBB0E5A1 /* Pods-CodeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JC959F8T7E;
 				INFOPLIST_FILE = CodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vit.CodeTest;
@@ -270,8 +408,10 @@
 		};
 		E46BEA421F4AED21006013AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712FEE1AA984BDBF40342212 /* Pods-CodeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JC959F8T7E;
 				INFOPLIST_FILE = CodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vit.CodeTest;
@@ -299,6 +439,7 @@
 				E46BEA421F4AED21006013AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
