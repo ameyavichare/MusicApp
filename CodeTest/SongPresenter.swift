@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+//Data model to be used for the view
+
 struct SongData {
     
     let name: String
@@ -17,10 +19,14 @@ struct SongData {
     let price: String
 }
 
+//abstraction of the view to be used in the presenter, without presenter knowing about UIViewController
+
 protocol songView: NSObjectProtocol {
     
     func setSongs(_ songs: [SongData])
 }
+
+
 
 class SongPresenter {
     
@@ -38,6 +44,8 @@ class SongPresenter {
     }
     
     func getSongs() {
+        
+        //calling songService method getSongs and calling setSongs which will in return load the tableView in UIViewController code
         
         songService.getSongs { [weak self] songs in
             

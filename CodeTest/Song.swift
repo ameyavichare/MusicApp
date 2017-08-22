@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+//Data Model for Song
 struct Song {
     let name: String
     let image: UIImage
